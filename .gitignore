@@ -1,0 +1,65 @@
+# ============================================================================
+#  Ex3 (Android) · .gitignore
+#  Evita versionar artefactos de compilación, configuración local del IDE y
+#  secretos de firma. OJO: gradle/wrapper/gradle-wrapper.jar SÍ debe
+#  versionarse (es necesario para que funcione `./gradlew`).
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# Gradle y artefactos de compilación
+# ----------------------------------------------------------------------------
+.gradle/
+build/
+/captures
+.externalNativeBuild/
+.cxx/
+.navigation/
+.kotlin/
+
+# Salidas instalables: se regeneran con `./gradlew assembleDebug`
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# ----------------------------------------------------------------------------
+# Android Studio / IntelliJ IDEA
+# ----------------------------------------------------------------------------
+*.iml
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+# Archivos ligados a la máquina (no compartir selección de dispositivo/emulador)
+.idea/deploymentTargetSelector.xml
+.idea/deviceManager.xml
+.idea/usage.statistics.xml
+.idea/tasks.xml
+.idea/shelf/
+.idea/httpRequests/
+
+# ----------------------------------------------------------------------------
+# Configuración local y secretos (nunca versionar)
+# ----------------------------------------------------------------------------
+local.properties
+keystore.properties
+secrets.properties
+*.jks
+*.keystore
+
+# ----------------------------------------------------------------------------
+# Sistema operativo
+# ----------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----------------------------------------------------------------------------
+# Logs y volcados de la JVM
+# ----------------------------------------------------------------------------
+*.log
+hs_err_pid*
+replay_pid*
+*.hprof

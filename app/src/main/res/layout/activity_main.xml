@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+
+
+    <LinearLayout
+        android:id="@+id/layoutGeneral"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="40dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/layoutName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom complet:"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:inputType="text"
+            android:textSize="15dp"
+            android:hint="Pepito Pacheco"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutCorreu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/tvCorreu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correu:"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp"/>
+
+        <EditText
+            android:id="@+id/etCorreu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:inputType="text"
+            android:textSize="15dp"
+            android:hint="pepitopachecodelospalotes@gmail.com"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutContrasenya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/tvContrasenya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contrasenya:"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp" />
+
+        <EditText
+            android:id="@+id/etContrasenya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:inputType="text"
+            android:textSize="15dp"
+            android:hint="Contrasenya"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutRepContrasenya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/tvRepContrasenya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Repeteix Contrasenya:"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp" />
+
+        <EditText
+            android:id="@+id/etRepContrasenya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:inputType="text"
+            android:textSize="15dp"
+            android:hint="Contrasenya repetida"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutFinal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/tvError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+        <Button
+            android:id="@+id/btnProba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Registra"/>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
